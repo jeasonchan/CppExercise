@@ -32,3 +32,7 @@ Person::Person(int age, std::string name) {
     this->name = name;
     this->age = age;
 }
+
+Person::Person() {
+
+}

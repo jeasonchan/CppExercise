@@ -19,7 +19,12 @@ int main() {
 
     Student::allPersonJump();
 
+    Student* studenP = new Student();
+    studenP->setAge(12);
+    studenP->setName("jeasonchan");
 
+    cout << (*studenP).getName() << endl;
+    cout << studenP->getName() << endl;
 
     return 0;
 }
