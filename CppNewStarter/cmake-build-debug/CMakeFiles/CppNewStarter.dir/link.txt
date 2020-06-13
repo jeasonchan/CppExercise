@@ -1,3 +1,1 @@
-C:\CRsoftwares\Toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\CppNewStarter.dir/objects.a
-C:\CRsoftwares\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\CppNewStarter.dir/objects.a @CMakeFiles\CppNewStarter.dir\objects1.rsp
-C:\CRsoftwares\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CppNewStarter.dir/objects.a -Wl,--no-whole-archive  -o CppNewStarter.exe -Wl,--out-implib,libCppNewStarter.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CppNewStarter.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/CppNewStarter.dir/main.cpp.o CMakeFiles/CppNewStarter.dir/bean/person.cpp.o CMakeFiles/CppNewStarter.dir/bean/student.cpp.o CMakeFiles/CppNewStarter.dir/bean/util.cpp.o CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o  -o CppNewStarter 

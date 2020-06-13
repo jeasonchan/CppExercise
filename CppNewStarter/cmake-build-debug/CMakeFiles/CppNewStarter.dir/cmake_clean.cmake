@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppNewStarter.dir/bean/person.cpp.obj"
-  "CMakeFiles/CppNewStarter.dir/bean/student.cpp.obj"
-  "CMakeFiles/CppNewStarter.dir/main.cpp.obj"
-  "CppNewStarter.exe"
-  "CppNewStarter.exe.manifest"
+  "CMakeFiles/CppNewStarter.dir/bean/person.cpp.o"
+  "CMakeFiles/CppNewStarter.dir/bean/student.cpp.o"
+  "CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
+  "CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
+  "CMakeFiles/CppNewStarter.dir/main.cpp.o"
+  "CppNewStarter"
   "CppNewStarter.pdb"
-  "libCppNewStarter.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
