@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
   "CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
   "CMakeFiles/CppNewStarter.dir/main.cpp.o"
+  "CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
+  "CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
   "CppNewStarter"
   "CppNewStarter.pdb"
 )

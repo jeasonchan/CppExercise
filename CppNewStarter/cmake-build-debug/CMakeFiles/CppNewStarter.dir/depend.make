@@ -20,3 +20,5 @@ CMakeFiles/CppNewStarter.dir/main.cpp.o: ../bean/util.h
 CMakeFiles/CppNewStarter.dir/main.cpp.o: ../bean/util2.h
 CMakeFiles/CppNewStarter.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o: ../试验左值右值/main.cpp
+

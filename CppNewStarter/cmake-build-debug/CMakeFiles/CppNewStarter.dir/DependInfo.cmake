@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
   "/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
   "/home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/main.cpp.o"
+  "/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
+  "/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

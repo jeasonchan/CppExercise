@@ -10,7 +10,7 @@
 using namespace std;
 
 string echo(string &input) {
-    string result = input;
+    string result = input;//这一句应该是调用sting 的 左值引用 赋值操作符
     return result;
 
 };
@@ -27,6 +27,9 @@ string &&echo3(string &input) {
     return const_cast<string &&>(result);
 };
 
+char &get_val(string &str, string::size_type ix) {
+    return str[ix];
+}
 
 int main() {
     string input = "a";
@@ -34,6 +37,23 @@ int main() {
 //    cout << echo2(input) << endl;
     cout << echo3(input) << endl;
 
+    string s("123456");
+    get_val(s, 0) = 'a';//赋值符号也只不过是一个函数而以
+    cout << s << endl;//输出 a23456
+
+    char &&a = '1';
+    a = '2';
+    cout << a << endl;
+
+    string b = "123";
+    string &c = b;
+    c="111";//再一次证明，cpp里面的赋值符号不过是一个函数，这里相当于的调用了一个函数，入参是"111"，和java不太一样
+    cout<<b<<endl;//输出 111
+
+
+    string d=b;
+    d="456";
+    cout<<b<<endl;
 
     return 0;
 }

@@ -258,6 +258,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+试验左值右值/main.o: 试验左值右值/main.cpp.o
+
+.PHONY : 试验左值右值/main.o
+
+# target to build an object file
+试验左值右值/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o
+.PHONY : 试验左值右值/main.cpp.o
+
+试验左值右值/main.i: 试验左值右值/main.cpp.i
+
+.PHONY : 试验左值右值/main.i
+
+# target to preprocess a source file
+试验左值右值/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.i
+.PHONY : 试验左值右值/main.cpp.i
+
+试验左值右值/main.s: 试验左值右值/main.cpp.s
+
+.PHONY : 试验左值右值/main.s
+
+# target to generate assembly for a file
+试验左值右值/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.s
+.PHONY : 试验左值右值/main.cpp.s
+
+试验左值右值/main2.o: 试验左值右值/main2.cpp.o
+
+.PHONY : 试验左值右值/main2.o
+
+# target to build an object file
+试验左值右值/main2.cpp.o:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o
+.PHONY : 试验左值右值/main2.cpp.o
+
+试验左值右值/main2.i: 试验左值右值/main2.cpp.i
+
+.PHONY : 试验左值右值/main2.i
+
+# target to preprocess a source file
+试验左值右值/main2.cpp.i:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.i
+.PHONY : 试验左值右值/main2.cpp.i
+
+试验左值右值/main2.s: 试验左值右值/main2.cpp.s
+
+.PHONY : 试验左值右值/main2.s
+
+# target to generate assembly for a file
+试验左值右值/main2.cpp.s:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.s
+.PHONY : 试验左值右值/main2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +336,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 试验左值右值/main.o"
+	@echo "... 试验左值右值/main.i"
+	@echo "... 试验左值右值/main.s"
+	@echo "... 试验左值右值/main2.o"
+	@echo "... 试验左值右值/main2.i"
+	@echo "... 试验左值右值/main2.s"
 .PHONY : help
 
 

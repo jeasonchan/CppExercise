@@ -109,6 +109,12 @@
 		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp">
 			<Option target="CppNewStarter"/>
 		</Unit>
+		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp">
+			<Option target="CppNewStarter"/>
+		</Unit>
+		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp">
+			<Option target="CppNewStarter"/>
+		</Unit>
 		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
