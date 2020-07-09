@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/person.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/person.cpp.o"
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/student.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/student.cpp.o"
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/main.cpp.o"
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
-  "/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp" "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/person.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/person.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/student.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/student.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/main.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/main.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
+  "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main2.cpp" "/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

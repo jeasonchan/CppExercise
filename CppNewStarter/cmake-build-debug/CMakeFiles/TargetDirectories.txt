@@ -1,3 +1,4 @@
-/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir
+/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir
+/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter2.dir

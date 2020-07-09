@@ -6,8 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppNewStarter.dir/main.cpp.o"
   "CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
   "CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
-  "CppNewStarter"
+  "CppNewStarter.exe"
   "CppNewStarter.pdb"
+  "libCppNewStarter.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jeasconchan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/jeasconchan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeasconchan/projects/CppExercise/CppNewStarter
+CMAKE_SOURCE_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CppNewStarter.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/CppNewStarter.dir/flags.make
 
 CMakeFiles/CppNewStarter.dir/main.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppNewStarter.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/main.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppNewStarter.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/main.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/main.cpp
 
 CMakeFiles/CppNewStarter.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp > CMakeFiles/CppNewStarter.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/main.cpp > CMakeFiles/CppNewStarter.dir/main.cpp.i
 
 CMakeFiles/CppNewStarter.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp -o CMakeFiles/CppNewStarter.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/main.cpp -o CMakeFiles/CppNewStarter.dir/main.cpp.s
 
 CMakeFiles/CppNewStarter.dir/bean/person.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/bean/person.cpp.o: ../bean/person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/person.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/person.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/person.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/person.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/person.cpp
 
 CMakeFiles/CppNewStarter.dir/bean/person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/bean/person.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/person.cpp > CMakeFiles/CppNewStarter.dir/bean/person.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/person.cpp > CMakeFiles/CppNewStarter.dir/bean/person.cpp.i
 
 CMakeFiles/CppNewStarter.dir/bean/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/bean/person.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/person.cpp -o CMakeFiles/CppNewStarter.dir/bean/person.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/person.cpp -o CMakeFiles/CppNewStarter.dir/bean/person.cpp.s
 
 CMakeFiles/CppNewStarter.dir/bean/student.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/bean/student.cpp.o: ../bean/student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/student.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/student.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/student.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/student.cpp
 
 CMakeFiles/CppNewStarter.dir/bean/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/bean/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/student.cpp > CMakeFiles/CppNewStarter.dir/bean/student.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/student.cpp > CMakeFiles/CppNewStarter.dir/bean/student.cpp.i
 
 CMakeFiles/CppNewStarter.dir/bean/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/bean/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/student.cpp -o CMakeFiles/CppNewStarter.dir/bean/student.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/student.cpp -o CMakeFiles/CppNewStarter.dir/bean/student.cpp.s
 
 CMakeFiles/CppNewStarter.dir/bean/util.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/bean/util.cpp.o: ../bean/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/util.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/util.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util.cpp
 
 CMakeFiles/CppNewStarter.dir/bean/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/bean/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.cpp > CMakeFiles/CppNewStarter.dir/bean/util.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util.cpp > CMakeFiles/CppNewStarter.dir/bean/util.cpp.i
 
 CMakeFiles/CppNewStarter.dir/bean/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/bean/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.cpp -o CMakeFiles/CppNewStarter.dir/bean/util.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util.cpp -o CMakeFiles/CppNewStarter.dir/bean/util.cpp.s
 
 CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o: ../bean/util2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.cpp
 
 CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.cpp > CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.cpp > CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i
 
 CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.cpp -o CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.cpp -o CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s
 
 CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o: ../试验左值右值/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main.cpp
 
 CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp > CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main.cpp > CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.i
 
 CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp -o CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main.cpp -o CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.s
 
 CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o: CMakeFiles/CppNewStarter.dir/flags.make
 CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o: ../试验左值右值/main2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o -c /home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o -c /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main2.cpp
 
 CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp > CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main2.cpp > CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.i
 
 CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp -o CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main2.cpp -o CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.s
 
 # Object files for target CppNewStarter
 CppNewStarter_OBJECTS = \
@@ -161,20 +161,20 @@ CppNewStarter_OBJECTS = \
 # External object files for target CppNewStarter
 CppNewStarter_EXTERNAL_OBJECTS =
 
-CppNewStarter: CMakeFiles/CppNewStarter.dir/main.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/bean/person.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/bean/student.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/bean/util.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o
-CppNewStarter: CMakeFiles/CppNewStarter.dir/build.make
-CppNewStarter: CMakeFiles/CppNewStarter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CppNewStarter"
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/main.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/bean/person.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/bean/student.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/bean/util.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/build.make
+CppNewStarter.exe: CMakeFiles/CppNewStarter.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CppNewStarter.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppNewStarter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/CppNewStarter.dir/build: CppNewStarter
+CMakeFiles/CppNewStarter.dir/build: CppNewStarter.exe
 
 .PHONY : CMakeFiles/CppNewStarter.dir/build
 
@@ -183,6 +183,6 @@ CMakeFiles/CppNewStarter.dir/clean:
 .PHONY : CMakeFiles/CppNewStarter.dir/clean
 
 CMakeFiles/CppNewStarter.dir/depend:
-	cd /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeasconchan/projects/CppExercise/CppNewStarter /home/jeasconchan/projects/CppExercise/CppNewStarter /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CppNewStarter.dir/depend
 

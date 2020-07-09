@@ -8,114 +8,165 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CppNewStarter">
-				<Option output="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option output="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppNewStarter"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppNewStarter"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CppNewStarter/fast">
-				<Option output="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option output="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppNewStarter/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppNewStarter/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppNewStarter2">
+				<Option output="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppNewStarter2"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppNewStarter2/fast">
+				<Option output="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppNewStarter2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/person.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/person.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/person.h">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/person.h">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/student.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/student.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/student.h">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/student.h">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util.h">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util.h">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/bean/util2.h">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.h">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/main.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/main.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/试验左值右值/main2.cpp">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/试验左值右值/main2.cpp">
 			<Option target="CppNewStarter"/>
+			<Option target="CppNewStarter2"/>
 		</Unit>
-		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
