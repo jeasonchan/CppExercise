@@ -113,30 +113,39 @@ namespace jeason {
          */
         //unique_ptr<Test> unique_ptr_02 = unique_ptr_01;
 
-        //需要通过move来处理，间接调用右值引用拷贝构造函数，实现指针转移
+        //需要通过move来处理，强制调用右值引用拷贝构造函数，实现指针转移
+        //更加深刻的领会右值的含义，转移原对象持有的内存块的指针
         unique_ptr<Test> unique_ptr_03 = move(unique_ptr_01);
-        if (!unique_ptr_01)cout << "unique_ptr_01 is empty" << endl;
+        if (!unique_ptr_01) {
+            cout << "unique_ptr_01 is empty" << endl;
+        }
         unique_ptr_03->printDetail();
 
         //释放指针
         unique_ptr_03.reset();
-        if (!unique_ptr_03)cout << "unique_ptr_03 is empty" << endl;
+        if (!unique_ptr_03) {
+            cout << "unique_ptr_03 is empty" << endl;
+        }
 
     }
 
 
     void test_share_ptr() {
-        shared_ptr<Test> shared_ptr_01(make_shared<Test>(20, "tom"));
+        shared_ptr<Test> shared_ptr_00(new Test());
+
+        shared_ptr<Test> shared_ptr_01(make_shared<Test>(10, "tom"));
         shared_ptr<Test> shared_ptr_02 = shared_ptr_01;
         shared_ptr_01->printDetail();
         shared_ptr_02->printDetail();
 
         shared_ptr_01.reset();
-        if (!shared_ptr_01)cout << "shared_ptr_01 is empty" << endl;
+        if (!shared_ptr_01) {
+            cout << "line 143 shared_ptr_01 is empty" << endl;
+        }
         shared_ptr_02->printDetail();
 
         shared_ptr_02.reset();
-        if (!shared_ptr_02)cout << "shared_ptr_02 is empty" << endl;
+        if (!shared_ptr_02)cout << "line 148 shared_ptr_02 is empty" << endl;
 
     }
 
