@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
+CMAKE_SOURCE_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewSt
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CppNewStarter
+# Target rules for targets named test_smart_pointer
 
 # Build rule for target.
-CppNewStarter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CppNewStarter
-.PHONY : CppNewStarter
+test_smart_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_smart_pointer
+.PHONY : test_smart_pointer
 
 # fast build rule for target.
-CppNewStarter/fast:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/build
-.PHONY : CppNewStarter/fast
+test_smart_pointer/fast:
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/build
+.PHONY : test_smart_pointer/fast
 
 #=============================================================================
 # Target rules for targets named CppNewStarter2
@@ -136,14 +136,27 @@ CppNewStarter2/fast:
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/build
 .PHONY : CppNewStarter2/fast
 
+#=============================================================================
+# Target rules for targets named CppNewStarter
+
+# Build rule for target.
+CppNewStarter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppNewStarter
+.PHONY : CppNewStarter
+
+# fast build rule for target.
+CppNewStarter/fast:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/build
+.PHONY : CppNewStarter/fast
+
 bean/person.o: bean/person.cpp.o
 
 .PHONY : bean/person.o
 
 # target to build an object file
 bean/person.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.o
 .PHONY : bean/person.cpp.o
 
 bean/person.i: bean/person.cpp.i
@@ -152,8 +165,8 @@ bean/person.i: bean/person.cpp.i
 
 # target to preprocess a source file
 bean/person.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.i
 .PHONY : bean/person.cpp.i
 
 bean/person.s: bean/person.cpp.s
@@ -162,8 +175,8 @@ bean/person.s: bean/person.cpp.s
 
 # target to generate assembly for a file
 bean/person.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.s
 .PHONY : bean/person.cpp.s
 
 bean/student.o: bean/student.cpp.o
@@ -172,8 +185,8 @@ bean/student.o: bean/student.cpp.o
 
 # target to build an object file
 bean/student.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.o
 .PHONY : bean/student.cpp.o
 
 bean/student.i: bean/student.cpp.i
@@ -182,8 +195,8 @@ bean/student.i: bean/student.cpp.i
 
 # target to preprocess a source file
 bean/student.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.i
 .PHONY : bean/student.cpp.i
 
 bean/student.s: bean/student.cpp.s
@@ -192,8 +205,8 @@ bean/student.s: bean/student.cpp.s
 
 # target to generate assembly for a file
 bean/student.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.s
 .PHONY : bean/student.cpp.s
 
 bean/util.o: bean/util.cpp.o
@@ -202,8 +215,8 @@ bean/util.o: bean/util.cpp.o
 
 # target to build an object file
 bean/util.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.o
 .PHONY : bean/util.cpp.o
 
 bean/util.i: bean/util.cpp.i
@@ -212,8 +225,8 @@ bean/util.i: bean/util.cpp.i
 
 # target to preprocess a source file
 bean/util.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.i
 .PHONY : bean/util.cpp.i
 
 bean/util.s: bean/util.cpp.s
@@ -222,8 +235,8 @@ bean/util.s: bean/util.cpp.s
 
 # target to generate assembly for a file
 bean/util.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.s
 .PHONY : bean/util.cpp.s
 
 bean/util2.o: bean/util2.cpp.o
@@ -232,8 +245,8 @@ bean/util2.o: bean/util2.cpp.o
 
 # target to build an object file
 bean/util2.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o
 .PHONY : bean/util2.cpp.o
 
 bean/util2.i: bean/util2.cpp.i
@@ -242,8 +255,8 @@ bean/util2.i: bean/util2.cpp.i
 
 # target to preprocess a source file
 bean/util2.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i
 .PHONY : bean/util2.cpp.i
 
 bean/util2.s: bean/util2.cpp.s
@@ -252,99 +265,90 @@ bean/util2.s: bean/util2.cpp.s
 
 # target to generate assembly for a file
 bean/util2.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s
 .PHONY : bean/util2.cpp.s
 
-main.o: main.cpp.o
+test_left_right_value/main.o: test_left_right_value/main.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/main.cpp.o
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-试验左值右值/main.o: 试验左值右值/main.cpp.o
-
-.PHONY : 试验左值右值/main.o
+.PHONY : test_left_right_value/main.o
 
 # target to build an object file
-试验左值右值/main.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/试验左值右值/main.cpp.o
-.PHONY : 试验左值右值/main.cpp.o
+test_left_right_value/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/test_left_right_value/main.cpp.o
+.PHONY : test_left_right_value/main.cpp.o
 
-试验左值右值/main.i: 试验左值右值/main.cpp.i
+test_left_right_value/main.i: test_left_right_value/main.cpp.i
 
-.PHONY : 试验左值右值/main.i
+.PHONY : test_left_right_value/main.i
 
 # target to preprocess a source file
-试验左值右值/main.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.i
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/试验左值右值/main.cpp.i
-.PHONY : 试验左值右值/main.cpp.i
+test_left_right_value/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/test_left_right_value/main.cpp.i
+.PHONY : test_left_right_value/main.cpp.i
 
-试验左值右值/main.s: 试验左值右值/main.cpp.s
+test_left_right_value/main.s: test_left_right_value/main.cpp.s
 
-.PHONY : 试验左值右值/main.s
+.PHONY : test_left_right_value/main.s
 
 # target to generate assembly for a file
-试验左值右值/main.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.s
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/试验左值右值/main.cpp.s
-.PHONY : 试验左值右值/main.cpp.s
+test_left_right_value/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/test_left_right_value/main.cpp.s
+.PHONY : test_left_right_value/main.cpp.s
 
-试验左值右值/main2.o: 试验左值右值/main2.cpp.o
+test_left_right_value/main2.o: test_left_right_value/main2.cpp.o
 
-.PHONY : 试验左值右值/main2.o
+.PHONY : test_left_right_value/main2.o
 
 # target to build an object file
-试验左值右值/main2.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/试验左值右值/main2.cpp.o
-.PHONY : 试验左值右值/main2.cpp.o
+test_left_right_value/main2.cpp.o:
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/test_left_right_value/main2.cpp.o
+.PHONY : test_left_right_value/main2.cpp.o
 
-试验左值右值/main2.i: 试验左值右值/main2.cpp.i
+test_left_right_value/main2.i: test_left_right_value/main2.cpp.i
 
-.PHONY : 试验左值右值/main2.i
+.PHONY : test_left_right_value/main2.i
 
 # target to preprocess a source file
-试验左值右值/main2.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.i
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/试验左值右值/main2.cpp.i
-.PHONY : 试验左值右值/main2.cpp.i
+test_left_right_value/main2.cpp.i:
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/test_left_right_value/main2.cpp.i
+.PHONY : test_left_right_value/main2.cpp.i
 
-试验左值右值/main2.s: 试验左值右值/main2.cpp.s
+test_left_right_value/main2.s: test_left_right_value/main2.cpp.s
 
-.PHONY : 试验左值右值/main2.s
+.PHONY : test_left_right_value/main2.s
 
 # target to generate assembly for a file
-试验左值右值/main2.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.s
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/试验左值右值/main2.cpp.s
-.PHONY : 试验左值右值/main2.cpp.s
+test_left_right_value/main2.cpp.s:
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/test_left_right_value/main2.cpp.s
+.PHONY : test_left_right_value/main2.cpp.s
+
+test_smart_pointer/Main.o: test_smart_pointer/Main.cpp.o
+
+.PHONY : test_smart_pointer/Main.o
+
+# target to build an object file
+test_smart_pointer/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/test_smart_pointer/Main.cpp.o
+.PHONY : test_smart_pointer/Main.cpp.o
+
+test_smart_pointer/Main.i: test_smart_pointer/Main.cpp.i
+
+.PHONY : test_smart_pointer/Main.i
+
+# target to preprocess a source file
+test_smart_pointer/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/test_smart_pointer/Main.cpp.i
+.PHONY : test_smart_pointer/Main.cpp.i
+
+test_smart_pointer/Main.s: test_smart_pointer/Main.cpp.s
+
+.PHONY : test_smart_pointer/Main.s
+
+# target to generate assembly for a file
+test_smart_pointer/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/test_smart_pointer/Main.cpp.s
+.PHONY : test_smart_pointer/Main.cpp.s
 
 # Help Target
 help:
@@ -353,9 +357,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... test_smart_pointer"
+	@echo "... CppNewStarter2"
 	@echo "... edit_cache"
 	@echo "... CppNewStarter"
-	@echo "... CppNewStarter2"
 	@echo "... bean/person.o"
 	@echo "... bean/person.i"
 	@echo "... bean/person.s"
@@ -368,15 +373,15 @@ help:
 	@echo "... bean/util2.o"
 	@echo "... bean/util2.i"
 	@echo "... bean/util2.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... 试验左值右值/main.o"
-	@echo "... 试验左值右值/main.i"
-	@echo "... 试验左值右值/main.s"
-	@echo "... 试验左值右值/main2.o"
-	@echo "... 试验左值右值/main2.i"
-	@echo "... 试验左值右值/main2.s"
+	@echo "... test_left_right_value/main.o"
+	@echo "... test_left_right_value/main.i"
+	@echo "... test_left_right_value/main.s"
+	@echo "... test_left_right_value/main2.o"
+	@echo "... test_left_right_value/main2.i"
+	@echo "... test_left_right_value/main2.s"
+	@echo "... test_smart_pointer/Main.o"
+	@echo "... test_smart_pointer/Main.i"
+	@echo "... test_smart_pointer/Main.s"
 .PHONY : help
 
 

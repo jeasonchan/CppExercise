@@ -3,12 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppNewStarter.dir/bean/student.cpp.o"
   "CMakeFiles/CppNewStarter.dir/bean/util.cpp.o"
   "CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o"
-  "CMakeFiles/CppNewStarter.dir/main.cpp.o"
-  "CMakeFiles/CppNewStarter.dir/试验左值右值/main.cpp.o"
-  "CMakeFiles/CppNewStarter.dir/试验左值右值/main2.cpp.o"
-  "CppNewStarter.exe"
+  "CMakeFiles/CppNewStarter.dir/test_left_right_value/main.cpp.o"
+  "CppNewStarter"
   "CppNewStarter.pdb"
-  "libCppNewStarter.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

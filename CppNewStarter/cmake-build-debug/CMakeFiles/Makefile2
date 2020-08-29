@@ -35,26 +35,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/chenr/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
+CMAKE_SOURCE_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CppNewStarter.dir/all
+all: CMakeFiles/test_smart_pointer.dir/all
 all: CMakeFiles/CppNewStarter2.dir/all
+all: CMakeFiles/CppNewStarter.dir/all
 
 .PHONY : all
 
@@ -64,37 +65,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CppNewStarter.dir/clean
+clean: CMakeFiles/test_smart_pointer.dir/clean
 clean: CMakeFiles/CppNewStarter2.dir/clean
+clean: CMakeFiles/CppNewStarter.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CppNewStarter.dir
+# Target rules for target CMakeFiles/test_smart_pointer.dir
 
 # All Build rule for target.
-CMakeFiles/CppNewStarter.dir/all:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/depend
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target CppNewStarter"
-.PHONY : CMakeFiles/CppNewStarter.dir/all
+CMakeFiles/test_smart_pointer.dir/all:
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/depend
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target test_smart_pointer"
+.PHONY : CMakeFiles/test_smart_pointer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CppNewStarter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CppNewStarter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CppNewStarter.dir/rule
+CMakeFiles/test_smart_pointer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_smart_pointer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test_smart_pointer.dir/rule
 
 # Convenience name for target.
-CppNewStarter: CMakeFiles/CppNewStarter.dir/rule
+test_smart_pointer: CMakeFiles/test_smart_pointer.dir/rule
 
-.PHONY : CppNewStarter
+.PHONY : test_smart_pointer
 
 # clean rule for target.
-CMakeFiles/CppNewStarter.dir/clean:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/clean
-.PHONY : CMakeFiles/CppNewStarter.dir/clean
+CMakeFiles/test_smart_pointer.dir/clean:
+	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/clean
+.PHONY : CMakeFiles/test_smart_pointer.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CppNewStarter2.dir
@@ -103,14 +105,14 @@ CMakeFiles/CppNewStarter.dir/clean:
 CMakeFiles/CppNewStarter2.dir/all:
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/depend
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target CppNewStarter2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target CppNewStarter2"
 .PHONY : CMakeFiles/CppNewStarter2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppNewStarter2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CppNewStarter2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CppNewStarter2.dir/rule
 
 # Convenience name for target.
@@ -122,6 +124,33 @@ CppNewStarter2: CMakeFiles/CppNewStarter2.dir/rule
 CMakeFiles/CppNewStarter2.dir/clean:
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/clean
 .PHONY : CMakeFiles/CppNewStarter2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CppNewStarter.dir
+
+# All Build rule for target.
+CMakeFiles/CppNewStarter.dir/all:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/depend
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CppNewStarter"
+.PHONY : CMakeFiles/CppNewStarter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CppNewStarter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CppNewStarter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CppNewStarter.dir/rule
+
+# Convenience name for target.
+CppNewStarter: CMakeFiles/CppNewStarter.dir/rule
+
+.PHONY : CppNewStarter
+
+# clean rule for target.
+CMakeFiles/CppNewStarter.dir/clean:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/clean
+.PHONY : CMakeFiles/CppNewStarter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
