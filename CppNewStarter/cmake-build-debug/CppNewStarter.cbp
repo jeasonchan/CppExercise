@@ -211,6 +211,9 @@
 		<Unit filename="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/test_smart_pointer/Main.cpp">
 			<Option target="test_smart_pointer"/>
 		</Unit>
+		<Unit filename="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/test_smart_pointer/sharePtr.hpp">
+			<Option target="test_smart_pointer"/>
+		</Unit>
 		<Unit filename="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
