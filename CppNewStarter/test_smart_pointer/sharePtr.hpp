@@ -5,6 +5,8 @@
 #ifndef CPPNEWSTARTER_SHAREPTR_HPP
 #define CPPNEWSTARTER_SHAREPTR_HPP
 
+#include <string>
+
 template<typename T>
 class SharePtr {
 private:
@@ -63,6 +65,18 @@ public:
         return _ptr;
     }
 };
+
+class LinkNode {
+public:
+    SharePtr<std::string> next;
+};
+
+void aaa() {
+
+    SharePtr<LinkNode> nodeA();
+    SharePtr<LinkNode> nodeB();
+
+}
 
 
 #endif //CPPNEWSTARTER_SHAREPTR_HPP
