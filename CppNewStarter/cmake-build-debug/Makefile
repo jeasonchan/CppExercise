@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/jeasconchan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /home/jeasconchan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
+CMAKE_SOURCE_DIR = /home/jeasconchan/projects/CppExercise/CppNewStarter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/jeasconchan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/jeasconchan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CppNewStarter
+
+# Build rule for target.
+CppNewStarter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppNewStarter
+.PHONY : CppNewStarter
+
+# fast build rule for target.
+CppNewStarter/fast:
+	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/build
+.PHONY : CppNewStarter/fast
+
+#=============================================================================
 # Target rules for targets named test_smart_pointer
 
 # Build rule for target.
@@ -137,17 +150,17 @@ CppNewStarter2/fast:
 .PHONY : CppNewStarter2/fast
 
 #=============================================================================
-# Target rules for targets named CppNewStarter
+# Target rules for targets named test_stl
 
 # Build rule for target.
-CppNewStarter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CppNewStarter
-.PHONY : CppNewStarter
+test_stl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_stl
+.PHONY : test_stl
 
 # fast build rule for target.
-CppNewStarter/fast:
-	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/build
-.PHONY : CppNewStarter/fast
+test_stl/fast:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/build
+.PHONY : test_stl/fast
 
 bean/person.o: bean/person.cpp.o
 
@@ -155,8 +168,8 @@ bean/person.o: bean/person.cpp.o
 
 # target to build an object file
 bean/person.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.o
 .PHONY : bean/person.cpp.o
 
 bean/person.i: bean/person.cpp.i
@@ -165,8 +178,8 @@ bean/person.i: bean/person.cpp.i
 
 # target to preprocess a source file
 bean/person.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.i
 .PHONY : bean/person.cpp.i
 
 bean/person.s: bean/person.cpp.s
@@ -175,8 +188,8 @@ bean/person.s: bean/person.cpp.s
 
 # target to generate assembly for a file
 bean/person.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/person.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/person.cpp.s
 .PHONY : bean/person.cpp.s
 
 bean/student.o: bean/student.cpp.o
@@ -185,8 +198,8 @@ bean/student.o: bean/student.cpp.o
 
 # target to build an object file
 bean/student.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.o
 .PHONY : bean/student.cpp.o
 
 bean/student.i: bean/student.cpp.i
@@ -195,8 +208,8 @@ bean/student.i: bean/student.cpp.i
 
 # target to preprocess a source file
 bean/student.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.i
 .PHONY : bean/student.cpp.i
 
 bean/student.s: bean/student.cpp.s
@@ -205,8 +218,8 @@ bean/student.s: bean/student.cpp.s
 
 # target to generate assembly for a file
 bean/student.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/student.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/student.cpp.s
 .PHONY : bean/student.cpp.s
 
 bean/util.o: bean/util.cpp.o
@@ -215,8 +228,8 @@ bean/util.o: bean/util.cpp.o
 
 # target to build an object file
 bean/util.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.o
 .PHONY : bean/util.cpp.o
 
 bean/util.i: bean/util.cpp.i
@@ -225,8 +238,8 @@ bean/util.i: bean/util.cpp.i
 
 # target to preprocess a source file
 bean/util.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.i
 .PHONY : bean/util.cpp.i
 
 bean/util.s: bean/util.cpp.s
@@ -235,8 +248,8 @@ bean/util.s: bean/util.cpp.s
 
 # target to generate assembly for a file
 bean/util.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util.cpp.s
 .PHONY : bean/util.cpp.s
 
 bean/util2.o: bean/util2.cpp.o
@@ -245,8 +258,8 @@ bean/util2.o: bean/util2.cpp.o
 
 # target to build an object file
 bean/util2.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.o
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.o
 .PHONY : bean/util2.cpp.o
 
 bean/util2.i: bean/util2.cpp.i
@@ -255,8 +268,8 @@ bean/util2.i: bean/util2.cpp.i
 
 # target to preprocess a source file
 bean/util2.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.i
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.i
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.i
 .PHONY : bean/util2.cpp.i
 
 bean/util2.s: bean/util2.cpp.s
@@ -265,8 +278,8 @@ bean/util2.s: bean/util2.cpp.s
 
 # target to generate assembly for a file
 bean/util2.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.s
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s
+	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/bean/util2.cpp.s
 .PHONY : bean/util2.cpp.s
 
 test_left_right_value/main.o: test_left_right_value/main.cpp.o
@@ -350,6 +363,33 @@ test_smart_pointer/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/test_smart_pointer/Main.cpp.s
 .PHONY : test_smart_pointer/Main.cpp.s
 
+test_stl/Main.o: test_stl/Main.cpp.o
+
+.PHONY : test_stl/Main.o
+
+# target to build an object file
+test_stl/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/test_stl/Main.cpp.o
+.PHONY : test_stl/Main.cpp.o
+
+test_stl/Main.i: test_stl/Main.cpp.i
+
+.PHONY : test_stl/Main.i
+
+# target to preprocess a source file
+test_stl/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/test_stl/Main.cpp.i
+.PHONY : test_stl/Main.cpp.i
+
+test_stl/Main.s: test_stl/Main.cpp.s
+
+.PHONY : test_stl/Main.s
+
+# target to generate assembly for a file
+test_stl/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/test_stl/Main.cpp.s
+.PHONY : test_stl/Main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -357,10 +397,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... test_smart_pointer"
-	@echo "... CppNewStarter2"
 	@echo "... edit_cache"
 	@echo "... CppNewStarter"
+	@echo "... test_smart_pointer"
+	@echo "... CppNewStarter2"
+	@echo "... test_stl"
 	@echo "... bean/person.o"
 	@echo "... bean/person.i"
 	@echo "... bean/person.s"
@@ -382,6 +423,9 @@ help:
 	@echo "... test_smart_pointer/Main.o"
 	@echo "... test_smart_pointer/Main.i"
 	@echo "... test_smart_pointer/Main.s"
+	@echo "... test_stl/Main.o"
+	@echo "... test_stl/Main.i"
+	@echo "... test_stl/Main.s"
 .PHONY : help
 
 
