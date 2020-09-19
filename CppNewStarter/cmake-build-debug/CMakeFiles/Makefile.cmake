@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/test_new.dir/DependInfo.cmake"
   "CMakeFiles/CppNewStarter.dir/DependInfo.cmake"
   "CMakeFiles/test_smart_pointer.dir/DependInfo.cmake"
   "CMakeFiles/CppNewStarter2.dir/DependInfo.cmake"

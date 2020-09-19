@@ -37,6 +37,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test_new">
+				<Option output="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/test_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_new"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_new/fast">
+				<Option output="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/test_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_new/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="CppNewStarter">
 				<Option output="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug"/>
@@ -251,6 +295,9 @@
 		</Unit>
 		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/test_left_right_value/main2.cpp">
 			<Option target="CppNewStarter2"/>
+		</Unit>
+		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/test_new/Main.cpp">
+			<Option target="test_new"/>
 		</Unit>
 		<Unit filename="/home/jeasconchan/projects/CppExercise/CppNewStarter/test_smart_pointer/Main.cpp">
 			<Option target="test_smart_pointer"/>

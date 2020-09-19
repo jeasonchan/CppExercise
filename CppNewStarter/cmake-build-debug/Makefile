@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test_new
+
+# Build rule for target.
+test_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_new
+.PHONY : test_new
+
+# fast build rule for target.
+test_new/fast:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/build
+.PHONY : test_new/fast
+
+#=============================================================================
 # Target rules for targets named CppNewStarter
 
 # Build rule for target.
@@ -336,6 +349,33 @@ test_left_right_value/main2.cpp.s:
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/test_left_right_value/main2.cpp.s
 .PHONY : test_left_right_value/main2.cpp.s
 
+test_new/Main.o: test_new/Main.cpp.o
+
+.PHONY : test_new/Main.o
+
+# target to build an object file
+test_new/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/test_new/Main.cpp.o
+.PHONY : test_new/Main.cpp.o
+
+test_new/Main.i: test_new/Main.cpp.i
+
+.PHONY : test_new/Main.i
+
+# target to preprocess a source file
+test_new/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/test_new/Main.cpp.i
+.PHONY : test_new/Main.cpp.i
+
+test_new/Main.s: test_new/Main.cpp.s
+
+.PHONY : test_new/Main.s
+
+# target to generate assembly for a file
+test_new/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/test_new/Main.cpp.s
+.PHONY : test_new/Main.cpp.s
+
 test_smart_pointer/Main.o: test_smart_pointer/Main.cpp.o
 
 .PHONY : test_smart_pointer/Main.o
@@ -398,6 +438,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test_new"
 	@echo "... CppNewStarter"
 	@echo "... test_smart_pointer"
 	@echo "... CppNewStarter2"
@@ -420,6 +461,9 @@ help:
 	@echo "... test_left_right_value/main2.o"
 	@echo "... test_left_right_value/main2.i"
 	@echo "... test_left_right_value/main2.s"
+	@echo "... test_new/Main.o"
+	@echo "... test_new/Main.i"
+	@echo "... test_new/Main.s"
 	@echo "... test_smart_pointer/Main.o"
 	@echo "... test_smart_pointer/Main.i"
 	@echo "... test_smart_pointer/Main.s"

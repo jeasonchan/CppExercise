@@ -9,3 +9,5 @@ add_executable(CppNewStarter2  bean/person.cpp bean/person.h bean/student.cpp be
 add_executable(test_smart_pointer test_smart_pointer/Main.cpp test_smart_pointer/sharePtr.hpp)
 
 add_executable(test_stl test_stl/Main.cpp)
+
+add_executable(test_new test_new/Main.cpp)
