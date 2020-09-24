@@ -14,6 +14,19 @@ namespace test_new {
         return new char[size];
     }
 
+    enum class Colour {
+        GREEN(1)
+
+        private:
+        int value;
+
+        public:
+        Colour(int input):value(input){
+
+        }
+    };
+
+
 }
 
 
