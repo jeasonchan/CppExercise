@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/CppNewStarter.dir/bean/person.cpp.o CMakeFiles/CppNewStarter.dir/bean/student.cpp.o CMakeFiles/CppNewStarter.dir/bean/util.cpp.o CMakeFiles/CppNewStarter.dir/bean/util2.cpp.o CMakeFiles/CppNewStarter.dir/test_left_right_value/main.cpp.o  -o CppNewStarter 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
+# Install script for directory: /home/jeasconchan/projects/CppExercise/CppNewStarter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jeasconchan/projects/CppExercise/CppNewStarter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

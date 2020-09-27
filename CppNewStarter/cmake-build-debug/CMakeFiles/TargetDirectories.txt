@@ -1,6 +1,0 @@
-/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/test_smart_pointer.dir
-/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/chapter3.dir
-/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter2.dir
-/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/CppNewStarter.dir
