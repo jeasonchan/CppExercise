@@ -71,6 +71,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="chapter3">
+				<Option output="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/chapter3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3/fast">
+				<Option output="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/chapter3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="CppNewStarter2">
 				<Option output="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CppNewStarter2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug"/>
@@ -201,6 +245,9 @@
 		<Unit filename="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/bean/util2.h">
 			<Option target="CppNewStarter2"/>
 			<Option target="CppNewStarter"/>
+		</Unit>
+		<Unit filename="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/follow_cpp_primer_5th/chapter3/Main.cpp">
+			<Option target="chapter3"/>
 		</Unit>
 		<Unit filename="/mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/test_left_right_value/main.cpp">
 			<Option target="CppNewStarter"/>

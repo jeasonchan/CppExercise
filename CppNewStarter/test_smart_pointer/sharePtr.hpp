@@ -68,7 +68,8 @@ public:
 
 class LinkNode {
 public:
-    SharePtr<std::string> next;
+    std::string value;
+    SharePtr<LinkNode> next;
 };
 
 void aaa() {

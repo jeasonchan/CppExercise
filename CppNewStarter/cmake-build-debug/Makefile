@@ -124,6 +124,19 @@ test_smart_pointer/fast:
 .PHONY : test_smart_pointer/fast
 
 #=============================================================================
+# Target rules for targets named chapter3
+
+# Build rule for target.
+chapter3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter3
+.PHONY : chapter3
+
+# fast build rule for target.
+chapter3/fast:
+	$(MAKE) -f CMakeFiles/chapter3.dir/build.make CMakeFiles/chapter3.dir/build
+.PHONY : chapter3/fast
+
+#=============================================================================
 # Target rules for targets named CppNewStarter2
 
 # Build rule for target.
@@ -269,6 +282,33 @@ bean/util2.cpp.s:
 	$(MAKE) -f CMakeFiles/CppNewStarter.dir/build.make CMakeFiles/CppNewStarter.dir/bean/util2.cpp.s
 .PHONY : bean/util2.cpp.s
 
+follow_cpp_primer_5th/chapter3/Main.o: follow_cpp_primer_5th/chapter3/Main.cpp.o
+
+.PHONY : follow_cpp_primer_5th/chapter3/Main.o
+
+# target to build an object file
+follow_cpp_primer_5th/chapter3/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter3.dir/build.make CMakeFiles/chapter3.dir/follow_cpp_primer_5th/chapter3/Main.cpp.o
+.PHONY : follow_cpp_primer_5th/chapter3/Main.cpp.o
+
+follow_cpp_primer_5th/chapter3/Main.i: follow_cpp_primer_5th/chapter3/Main.cpp.i
+
+.PHONY : follow_cpp_primer_5th/chapter3/Main.i
+
+# target to preprocess a source file
+follow_cpp_primer_5th/chapter3/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter3.dir/build.make CMakeFiles/chapter3.dir/follow_cpp_primer_5th/chapter3/Main.cpp.i
+.PHONY : follow_cpp_primer_5th/chapter3/Main.cpp.i
+
+follow_cpp_primer_5th/chapter3/Main.s: follow_cpp_primer_5th/chapter3/Main.cpp.s
+
+.PHONY : follow_cpp_primer_5th/chapter3/Main.s
+
+# target to generate assembly for a file
+follow_cpp_primer_5th/chapter3/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter3.dir/build.make CMakeFiles/chapter3.dir/follow_cpp_primer_5th/chapter3/Main.cpp.s
+.PHONY : follow_cpp_primer_5th/chapter3/Main.cpp.s
+
 test_left_right_value/main.o: test_left_right_value/main.cpp.o
 
 .PHONY : test_left_right_value/main.o
@@ -358,6 +398,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... test_smart_pointer"
+	@echo "... chapter3"
 	@echo "... CppNewStarter2"
 	@echo "... edit_cache"
 	@echo "... CppNewStarter"
@@ -373,6 +414,9 @@ help:
 	@echo "... bean/util2.o"
 	@echo "... bean/util2.i"
 	@echo "... bean/util2.s"
+	@echo "... follow_cpp_primer_5th/chapter3/Main.o"
+	@echo "... follow_cpp_primer_5th/chapter3/Main.i"
+	@echo "... follow_cpp_primer_5th/chapter3/Main.s"
 	@echo "... test_left_right_value/main.o"
 	@echo "... test_left_right_value/main.i"
 	@echo "... test_left_right_value/main.s"
