@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter
+CMAKE_SOURCE_DIR = /tmp/tmp.wViq5ocIbb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.wViq5ocIbb/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.wViq5ocIbb/cmake-build-debug/CMakeFiles /tmp/tmp.wViq5ocIbb/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/CRroot/documents/codeproject/CppExercise/CppNewStarter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.wViq5ocIbb/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,45 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named test_2D_array
+
+# Build rule for target.
+test_2D_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_2D_array
+.PHONY : test_2D_array
+
+# fast build rule for target.
+test_2D_array/fast:
+	$(MAKE) -f CMakeFiles/test_2D_array.dir/build.make CMakeFiles/test_2D_array.dir/build
+.PHONY : test_2D_array/fast
+
+#=============================================================================
+# Target rules for targets named test_new
+
+# Build rule for target.
+test_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_new
+.PHONY : test_new
+
+# fast build rule for target.
+test_new/fast:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/build
+.PHONY : test_new/fast
+
+#=============================================================================
+# Target rules for targets named test_stl
+
+# Build rule for target.
+test_stl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_stl
+.PHONY : test_stl
+
+# fast build rule for target.
+test_stl/fast:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/build
+.PHONY : test_stl/fast
 
 #=============================================================================
 # Target rules for targets named test_smart_pointer
@@ -309,6 +348,33 @@ follow_cpp_primer_5th/chapter3/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/chapter3.dir/build.make CMakeFiles/chapter3.dir/follow_cpp_primer_5th/chapter3/Main.cpp.s
 .PHONY : follow_cpp_primer_5th/chapter3/Main.cpp.s
 
+test_2D_array/Main.o: test_2D_array/Main.cpp.o
+
+.PHONY : test_2D_array/Main.o
+
+# target to build an object file
+test_2D_array/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_2D_array.dir/build.make CMakeFiles/test_2D_array.dir/test_2D_array/Main.cpp.o
+.PHONY : test_2D_array/Main.cpp.o
+
+test_2D_array/Main.i: test_2D_array/Main.cpp.i
+
+.PHONY : test_2D_array/Main.i
+
+# target to preprocess a source file
+test_2D_array/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_2D_array.dir/build.make CMakeFiles/test_2D_array.dir/test_2D_array/Main.cpp.i
+.PHONY : test_2D_array/Main.cpp.i
+
+test_2D_array/Main.s: test_2D_array/Main.cpp.s
+
+.PHONY : test_2D_array/Main.s
+
+# target to generate assembly for a file
+test_2D_array/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_2D_array.dir/build.make CMakeFiles/test_2D_array.dir/test_2D_array/Main.cpp.s
+.PHONY : test_2D_array/Main.cpp.s
+
 test_left_right_value/main.o: test_left_right_value/main.cpp.o
 
 .PHONY : test_left_right_value/main.o
@@ -363,6 +429,33 @@ test_left_right_value/main2.cpp.s:
 	$(MAKE) -f CMakeFiles/CppNewStarter2.dir/build.make CMakeFiles/CppNewStarter2.dir/test_left_right_value/main2.cpp.s
 .PHONY : test_left_right_value/main2.cpp.s
 
+test_new/Main.o: test_new/Main.cpp.o
+
+.PHONY : test_new/Main.o
+
+# target to build an object file
+test_new/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/test_new/Main.cpp.o
+.PHONY : test_new/Main.cpp.o
+
+test_new/Main.i: test_new/Main.cpp.i
+
+.PHONY : test_new/Main.i
+
+# target to preprocess a source file
+test_new/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/test_new/Main.cpp.i
+.PHONY : test_new/Main.cpp.i
+
+test_new/Main.s: test_new/Main.cpp.s
+
+.PHONY : test_new/Main.s
+
+# target to generate assembly for a file
+test_new/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_new.dir/build.make CMakeFiles/test_new.dir/test_new/Main.cpp.s
+.PHONY : test_new/Main.cpp.s
+
 test_smart_pointer/Main.o: test_smart_pointer/Main.cpp.o
 
 .PHONY : test_smart_pointer/Main.o
@@ -390,13 +483,43 @@ test_smart_pointer/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/test_smart_pointer.dir/build.make CMakeFiles/test_smart_pointer.dir/test_smart_pointer/Main.cpp.s
 .PHONY : test_smart_pointer/Main.cpp.s
 
+test_stl/Main.o: test_stl/Main.cpp.o
+
+.PHONY : test_stl/Main.o
+
+# target to build an object file
+test_stl/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/test_stl/Main.cpp.o
+.PHONY : test_stl/Main.cpp.o
+
+test_stl/Main.i: test_stl/Main.cpp.i
+
+.PHONY : test_stl/Main.i
+
+# target to preprocess a source file
+test_stl/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/test_stl/Main.cpp.i
+.PHONY : test_stl/Main.cpp.i
+
+test_stl/Main.s: test_stl/Main.cpp.s
+
+.PHONY : test_stl/Main.s
+
+# target to generate assembly for a file
+test_stl/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_stl.dir/build.make CMakeFiles/test_stl.dir/test_stl/Main.cpp.s
+.PHONY : test_stl/Main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... test_2D_array"
 	@echo "... rebuild_cache"
+	@echo "... test_new"
+	@echo "... test_stl"
 	@echo "... test_smart_pointer"
 	@echo "... chapter3"
 	@echo "... CppNewStarter2"
@@ -417,15 +540,24 @@ help:
 	@echo "... follow_cpp_primer_5th/chapter3/Main.o"
 	@echo "... follow_cpp_primer_5th/chapter3/Main.i"
 	@echo "... follow_cpp_primer_5th/chapter3/Main.s"
+	@echo "... test_2D_array/Main.o"
+	@echo "... test_2D_array/Main.i"
+	@echo "... test_2D_array/Main.s"
 	@echo "... test_left_right_value/main.o"
 	@echo "... test_left_right_value/main.i"
 	@echo "... test_left_right_value/main.s"
 	@echo "... test_left_right_value/main2.o"
 	@echo "... test_left_right_value/main2.i"
 	@echo "... test_left_right_value/main2.s"
+	@echo "... test_new/Main.o"
+	@echo "... test_new/Main.i"
+	@echo "... test_new/Main.s"
 	@echo "... test_smart_pointer/Main.o"
 	@echo "... test_smart_pointer/Main.i"
 	@echo "... test_smart_pointer/Main.s"
+	@echo "... test_stl/Main.o"
+	@echo "... test_stl/Main.i"
+	@echo "... test_stl/Main.s"
 .PHONY : help
 
 
