@@ -21,9 +21,19 @@ void createFunction1(unsigned int n) {
 
 
 void createFunction2(unsigned int height, unsigned int width) {
-    //
-    auto array2D = new int *[height];
+    //element in array is int* type
+    int **array2D = new int *[height];
 
+    //create each row
+    for (int i = 0; i < width; ++i) {
+        *array2D = new int[width];
+    }
+
+    //destroy array
+    for (int i = 0; i < height; ++i) {
+        delete[] array2D[i];
+    }
+    delete[] array2D;
 
 }
 
