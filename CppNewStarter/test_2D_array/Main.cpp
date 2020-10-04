@@ -20,6 +20,7 @@ void createFunction1(unsigned int n) {
 }
 
 
+
 void createFunction2(unsigned int height, unsigned int width) {
     //element in array is int* type
     int **array2D = new int *[height];
