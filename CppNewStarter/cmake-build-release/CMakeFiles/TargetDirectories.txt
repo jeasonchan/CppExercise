@@ -1,0 +1,11 @@
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/test_boost.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/test_vector.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/test_2D_array.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/test_new.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/test_stl.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/test_smart_pointer.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/chapter3.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/CppNewStarter2.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/edit_cache.dir
+/tmp/tmp.wViq5ocIbb/cmake-build-release/CMakeFiles/CppNewStarter.dir

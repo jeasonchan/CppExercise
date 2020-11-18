@@ -4,6 +4,4 @@
 
 #include "Base.h"
 
-void Child::hhah() {
 
-}
