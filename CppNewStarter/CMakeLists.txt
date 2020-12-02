@@ -20,10 +20,13 @@ add_executable(test_boost test_boost/test_boost_avail.cpp)
 find_package(Boost REQUIRED)
 if (Boost_FOUND)
     message(${Boost_INCLUDE_DIRS})
-    message()
-    message(${Boost_LIBRARY_DIRS})
+#    message(${Boost_LIBRARY_DIRS})
 
     target_include_directories(test_boost PRIVATE ${Boost_INCLUDE_DIRS})
     target_link_directories(test_boost PRIVATE ${Boost_LIBRARY_DIRS})
     #    target_link_libraries(test_boost PRIVATE ${Boost_INCLUDE_DIRS})
 endif ()
+
+add_executable(leetcode4727 leetcode4727/Main.cpp leetcode4727/Solution.hpp)
+
+message(123)
