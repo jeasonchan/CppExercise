@@ -17,14 +17,14 @@ add_executable(test_2D_array test_2D_array/Main.cpp)
 add_executable(test_vector test_vector/Main.cpp)
 
 add_executable(test_boost test_boost/test_boost_avail.cpp)
-find_package(Boost REQUIRED)
+find_package(Boost REQUIRED context)
 if (Boost_FOUND)
     message(${Boost_INCLUDE_DIRS})
 #    message(${Boost_LIBRARY_DIRS})
 
     target_include_directories(test_boost PRIVATE ${Boost_INCLUDE_DIRS})
     target_link_directories(test_boost PRIVATE ${Boost_LIBRARY_DIRS})
-    #    target_link_libraries(test_boost PRIVATE ${Boost_INCLUDE_DIRS})
+    target_link_libraries(test_boost PRIVATE libboost_context.a )
 endif ()
 
 add_executable(leetcode4727 leetcode4727/Main.cpp leetcode4727/Solution.hpp)
