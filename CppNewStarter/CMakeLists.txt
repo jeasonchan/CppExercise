@@ -35,4 +35,6 @@ endif ()
 
 add_executable(leetcode2 leetcode2/Main.cpp leetcode2/Solution.hpp)
 
+add_executable(leetcode4 leetcode4/Main.cpp leetcode4/Solution.hpp)
+
 message(123)
