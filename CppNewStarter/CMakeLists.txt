@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(CppNewStarter)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 set(WINDOWS true)
 if (${WINDOWS})
@@ -38,3 +38,6 @@ add_executable(leetcode2 leetcode2/Main.cpp leetcode2/Solution.hpp)
 add_executable(leetcode4 leetcode4/Main.cpp leetcode4/Solution.hpp)
 
 message(123)
+
+
+add_executable(leetcode347 leetcode347/Main.cpp)
