@@ -41,3 +41,5 @@ message(123)
 
 
 add_executable(leetcode347 leetcode347/Main.cpp)
+
+add_executable(revert_list_in_place revert_list_in_place/Main.cpp revert_list_in_place/Solution.hpp)
