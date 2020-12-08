@@ -3,7 +3,7 @@ project(CppNewStarter)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(WINDOWS true)
+set(WINDOWS false)
 if (${WINDOWS})
     set(BOOST_INCLUDEDIR D:\\softwares\\boost_1_73_0\\stage\\lib)
     set(BOOST_LIBRARYDIR D:\\softwares\\boost_1_73_0\\stage\\lib)
@@ -44,3 +44,4 @@ add_executable(leetcode347 leetcode347/Main.cpp)
 
 add_executable(revert_list_in_place revert_list_in_place/Main.cpp revert_list_in_place/Solution.hpp)
 add_executable(binary_tree_print binary_tree_print/Main.cpp binary_tree_print/Solution.hpp)
+add_executable(leetcode842 leetcode842/Main.cpp leetcode842/Solution.hpp)
