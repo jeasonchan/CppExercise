@@ -59,6 +59,18 @@ namespace leetcode290 {
 
         }
 
+        /**
+         * 简化一下判断逻辑
+         *
+         * @param pattern
+         * @param s
+         * @return
+         */
+        bool wordPattern_v2(string pattern, string s) {
+
+
+        }
+
     private:
         size_t count(string &input) {
             size_t offSet = 0;
@@ -71,6 +83,19 @@ namespace leetcode290 {
 
             return count + 1;
         }
+
+
+        size_t count_v2(string &input) {
+            std::size_t count = 0;
+            size_t index = 0;
+            while (index < input.size() && input[index] == ' ') {
+                ++count;
+                ++index;
+            }
+
+            return count + 1;
+        }
+
     };
 
 }
