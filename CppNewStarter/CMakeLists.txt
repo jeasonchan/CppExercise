@@ -46,3 +46,5 @@ add_executable(revert_list_in_place revert_list_in_place/Main.cpp revert_list_in
 add_executable(binary_tree_print binary_tree_print/Main.cpp binary_tree_print/Solution.hpp)
 add_executable(leetcode842 leetcode842/Main.cpp leetcode842/Solution.hpp)
 add_executable(leetcode290 leetcode290/Main.cpp)
+
+add_executable(leetcode714 leetcode714/Main.cpp)
