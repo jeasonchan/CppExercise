@@ -10,6 +10,7 @@ namespace leetcode714 {
 
         /**
          * @brief
+         * 动态规划
          * 输入: prices = [1, 3, 2, 8, 4, 9], fee = 2
          * 输出: 8
          *
@@ -34,6 +35,20 @@ namespace leetcode714 {
 
             return dp[0][days - 1];
         }
+
+        /**
+         * 贪心
+         *
+         * @param prices
+         * @param fee
+         * @return
+         */
+        int maxProfit_tan_xin(vector<int> &prices, int fee) {
+
+
+
+        }
+
     };
 
 }
