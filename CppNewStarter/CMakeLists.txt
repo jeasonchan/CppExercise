@@ -48,3 +48,5 @@ add_executable(leetcode842 leetcode842/Main.cpp leetcode842/Solution.hpp)
 add_executable(leetcode290 leetcode290/Main.cpp)
 
 add_executable(leetcode714 leetcode714/Main.cpp)
+
+add_executable(leetcode389 leetcode389/Main.cpp)
