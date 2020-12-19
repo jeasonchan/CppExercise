@@ -24,8 +24,6 @@ namespace leetcode738 {
             }
 
 
-
-
             return ret;
 
         }
