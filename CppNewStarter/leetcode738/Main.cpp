@@ -21,6 +21,7 @@ namespace leetcode738 {
             for (int i = bitNum; i >= 0; --i) {
 
 
+
             }
 
 
