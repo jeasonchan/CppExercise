@@ -67,6 +67,32 @@ namespace leetcode103 {
 
             return ret;
         }
+
+
+        /**
+         * 使用深度优先重构
+         * @param root
+         * @return
+         */
+        vector<vector<int>> zigzagLevelOrder_v2(TreeNode *root) {
+            //先复习深度优先的遍历，以中序遍历为例
+            print(root);
+
+            return {{}};
+        }
+
+    private:
+        void print(TreeNode *root) {
+            if (!root) {
+                return;
+            }
+
+            print(root->left);
+            cout << root->val << " ";
+            print(root->right);
+
+        }
+
     };
 
 }
@@ -95,6 +121,10 @@ int main(int argc, char *argv[]) {
 
     leetcode103::Solution solution;
     auto toPrint = solution.zigzagLevelOrder(&node01);
+
+    std::cout << "================================" << std::endl;
+
+    solution.zigzagLevelOrder_v2(&node01);
 
     return 0;
 }

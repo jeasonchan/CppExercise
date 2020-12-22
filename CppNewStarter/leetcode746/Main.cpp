@@ -33,13 +33,19 @@ namespace leetcode746 {
             }
             return ret;
         }
+
+
+        int minCostClimbingStairs_v2(vector<int> &cost) {
+
+
+        }
     };
 
 }
 
 
 int main(int argc, char *argv[]) {
-    std::vector<int> vec{0,1,2,2};
+    std::vector<int> vec{0, 1, 2, 2};
 
     leetcode746::Solution solution;
 
