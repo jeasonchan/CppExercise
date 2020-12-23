@@ -1,6 +1,7 @@
 #include <string>
 #include <array>
-
+#include <unordered_map>
+#include <queue>
 
 namespace leetcode387 {
     using namespace std;
@@ -35,6 +36,35 @@ namespace leetcode387 {
 
 
             return index;
+        }
+
+        /**
+         * 尝试使用
+         *
+         * @param s
+         * @return
+         */
+        int firstUniqChar_v2(string s) {
+
+            unordered_map<char, int> position;
+            queue<pair<char, int>> q;
+            int n = s.size();
+            for (int i = 0; i < n; ++i) {
+                if (!position.count(s[i])) {
+                    position[s[i]] = i;
+                    q.emplace(s[i], i);
+                } else {
+                    //标记当前字母已经多次出现
+                    position[s[i]] = -1;
+
+                    //把肯定没用的清除掉
+                    while (!q.empty() && position[q.front().first] == -1) {
+                        q.pop();
+                    }
+                }
+            }
+            return q.empty() ? -1 : q.front().second;
+
         }
     };
 
