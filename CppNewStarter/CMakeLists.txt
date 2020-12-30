@@ -62,3 +62,5 @@ add_executable(leetcode387 leetcode387/Main.cpp)
 add_executable(leetcode135 leetcode135/Main.cpp)
 
 add_executable(leetcode455 leetcode455/Main.cpp)
+
+add_executable(leetcode1046 leetcode1046/Main.cpp)
