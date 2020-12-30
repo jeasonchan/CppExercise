@@ -15,6 +15,10 @@ namespace leetcode1046 {
 
             for_each(stones.begin(), stones.end(), [&queue](int &each) { queue.push(each); });
 
+
+            //一开始我还想直接用vector,消失的石头直接用0代替，
+            //但是，这样就有性能问题，每次的排序时还要对0排序，有点没有必要
+            //改用大根堆之后，每次排序的元素个数都在逐渐减少
             while (queue.size() >= 2) {
                 int first_top = queue.top();
                 queue.pop();
