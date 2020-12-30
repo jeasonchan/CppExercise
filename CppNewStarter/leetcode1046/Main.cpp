@@ -1,6 +1,7 @@
 #include <vector>
 #include <queue>
 #include <algorithm>
+#include <iostream>
 
 namespace leetcode1046 {
     using namespace std;
@@ -43,7 +44,27 @@ namespace leetcode1046 {
          * @return
          */
         int lastStoneWeight_v2(vector<int> &stones) {
+            if (stones.size() > 1) {
 
+                //std:sort 的第三个入参是一个对象，而上面的优先队列的第三个模板是一个typename，因此，再初始化queue实例时，还是使用了一个对象作为入参
+                std::sort(stones.begin(), stones.end(), less<int>());
+
+                int first = stones.back();
+                stones.pop_back();
+
+                int second = stones.back();
+                stones.pop_back();
+
+                if (first != second) {
+                    stones.emplace_back(abs(first - second));
+                }
+
+                vector<int> newStone{stones.begin(), stones.end()};
+
+                return lastStoneWeight_v2(newStone);
+            }
+
+            return stones.empty() ? 0 : stones[1];
 
         }
     };
@@ -52,6 +73,11 @@ namespace leetcode1046 {
 
 
 int main(int argc, char *argv[]) {
+    leetcode1046::Solution solution;
+
+    std::vector<int> input{2, 7, 4, 1, 8, 1};
+
+    std::cout << solution.lastStoneWeight_v2(input);
 
     return 0;
 }
