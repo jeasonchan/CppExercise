@@ -7,12 +7,29 @@ namespace leetcode605 {
     class Solution {
     public:
         bool canPlaceFlowers(vector<int> &flowerbed, int n) {
+            int count = 0;
+            for (int i = 0; i < flowerbed.size(); ++i) {
+
+                if (checkIfCanPlant(flowerbed, i)) {
+                    ++count;
+                    flowerbed[i] = has_flower;
+                }
 
 
+                if (count >= n) {
+                    return true;
+                }
+            }
+
+
+            return false;
         }
 
 
     private:
+        const static int has_flower = 1;
+        const static int no_flower = 0;
+
         /**
          * 检查当前位置是否能种花
          *
@@ -20,14 +37,32 @@ namespace leetcode605 {
          * @param index
          * @return
          */
-        bool checkThenDone(vector<int> &vector, int &index) {
-            if (vector[index] != 0) {
+        bool checkIfCanPlant(vector<int> &vector, int &index) {
+            if (vector[index] == has_flower) {
                 return false;
             }
 
 
+            if (index - 1 < 0 && index + 1 >= vector.size()) {
+                return true;
+            }
 
+            if (index - 1 < 0 && index + 1 < vector.size() && vector[index + 1] == no_flower) {
+                return true;
+            }
 
+            if (index + 1 >= vector.size() && index - 1 >= 0 && vector[index - 1] == no_flower) {
+                return true;
+            }
+
+            if (index - 1 >= 0 &&
+                index + 1 < vector.size() &&
+                vector[index - 1] == no_flower &&
+                vector[index + 1] == no_flower) {
+                return true;
+            }
+
+            return false;
         }
     };
 
@@ -35,7 +70,11 @@ namespace leetcode605 {
 
 
 int main(int argc, char *argv[]) {
+    leetcode605::Solution solution;
 
+    std::vector<int> input{1, 0, 0, 0, 1};
+
+    solution.canPlaceFlowers(input, 2);
 
     return 0;
 }
