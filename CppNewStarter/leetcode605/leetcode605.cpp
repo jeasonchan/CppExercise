@@ -68,7 +68,7 @@ namespace leetcode605 {
 
 
         /**
-         *  数学公式，假设有左端点i和右端点j，则i和j之间作
+         *  数学公式，假设有左端点i和右端点j均有花，则i和j之间没有花的位置，则i和j之间最多可以种植  (j-i-2)/2
          *
          * @param vector
          * @param index
