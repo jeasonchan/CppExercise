@@ -64,6 +64,19 @@ namespace leetcode605 {
 
             return false;
         }
+
+
+
+        /**
+         *  数学公式，假设有左端点i和右端点j，则i和j之间作
+         *
+         * @param vector
+         * @param index
+         * @return
+         */
+        bool checkIfCanPlant_v2(vector<int> &vector, int &index) {
+
+        }
     };
 
 }
