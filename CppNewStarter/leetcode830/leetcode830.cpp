@@ -37,7 +37,30 @@ public:
         return ret;
     }
 
+     /**
+     * @brief largeGroupPositions_v2
+     * 双指针，有点滑动窗口的意思
+     *
+     * @param s
+     * @return
+     */
+    vector<vector<int>> largeGroupPositions_v2(string s) {
+        int length=s.size();
+        vector<vector<int>> ret{};
+        for(int left_index=0,right_index=0;left_index<length;left_index=right_index){
 
+            while (right_index<length && s[left_index]==s[right_index] ) {
+                ++right_index;
+            }
+
+            if(right_index-left_index>=3) {ret.push_back({left_index,right_index-1});}
+
+
+        }
+
+        return ret;
+
+    }
 
 private:
     const static int NO_INDEX=-1;
