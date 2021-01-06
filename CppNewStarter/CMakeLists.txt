@@ -75,3 +75,5 @@ add_executable(leetcode239 leetcode239/leetcode239.cpp)
 add_executable(leetcode509 leetcode509/leetcode509.cpp)
 
 add_executable(leetcode830 leetcode830/leetcode830.cpp)
+
+add_executable(test_member_init main.cpp)

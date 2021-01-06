@@ -12,7 +12,24 @@
 
 using namespace std;
 
+class Foo {
+public:
+
+    //编译器自动生成的无参构造函数只会管类中类类型的成员变量
+    int val;
+    Foo *next;
+};
+
+//非函数体中（不包括类成员变量的基础数据类型）的基础数据类型，会默认执行0值初始化
+int myAge;
+
 int main() {
+    Foo bar;
+
+
+    int aaa=myAge;
+
+/*
     std::cout << "Hello, World!" << std::endl;
     Person person = Person();
     Person *person1 = &person;
@@ -39,5 +56,7 @@ int main() {
     jc::Util2::generateCountRandomNumber(123, result);
     cout << "result2:" << result << endl;
 
+
+ */
     return 0;
 }
