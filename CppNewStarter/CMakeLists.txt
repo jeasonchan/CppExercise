@@ -81,4 +81,4 @@ add_executable(test_member_init main.cpp)
 
 add_executable(leetcode189 leetcode189/leetcode189.cpp)
 
-add_executable(leetcode228 leetcode228/leetcode228.cpp)
+add_executable(leetcode1202 leetcode1202/leetcode1202.cpp)
