@@ -39,18 +39,39 @@ public:
         int length=nums.size();
         k=getEqualK(length,k);
 
-        //以[1,2,3,4,5,6,7]为例，尝试k=0,1,2,3,4,5,6的情况，即可发现规律
-        int index=0;
-        int value_of_index=nums[0];
-        int temp;
-        for(int moved_times=0;moved_times<length;++moved_times){
-            int target_index=getNewIndex(length,k,index);
-            temp=nums[target_index];
-            nums[target_index]=value_of_index;
-            value_of_index=temp;
-            index=target_index;
+        int moved_times=0;
 
+        for(int i=0;i<k;++i){
+
+            //以[1,2,3,4,5,6,7]为例，尝试k=0,1,2,3,4,5,6的情况，即可发现规律
+            int index=i;
+            const int init_index=i;
+            int value_of_index=nums[i];
+            int temp;
+            int target_index=-1;
+
+            for( ;moved_times<=length;){
+                target_index=getNewIndex(length,k,index);
+
+                temp=nums[target_index];
+                nums[target_index]=value_of_index;
+                value_of_index=temp;
+                index=target_index;
+                ++moved_times;
+                
+                if(target_index==init_index){
+                    
+                    break;
+                }
+            }
+
+            if(moved_times>=length){
+                break;
+            }
         }
+
+
+
 
 
 
@@ -71,7 +92,7 @@ private:
         int temp=nums[target_index];
         nums[target_index]=nums[index];
 
-//        moveToNext(nums)
+        //        moveToNext(nums)
 
 
 
@@ -116,7 +137,7 @@ private:
 int main(int argc,char* argv[]){
     leetcode189::Solution solution;
 
-    std::vector<int> vec{-1,-100,3,99};
+    std::vector<int> vec{1,2,3,4,5,6,7};
 
     solution.rotate(vec,2);
 
