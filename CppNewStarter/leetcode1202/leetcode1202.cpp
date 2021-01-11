@@ -24,6 +24,11 @@ namespace leetcode1202 {
             }
         }
 
+        /**
+         * 找出元素x的代表元，代表元是自己就说明需要新插入或者
+         * @param x
+         * @return
+         */
         int find(int x) {
             return f[x] == x ? x : f[x] = find(f[x]);
         }
@@ -68,6 +73,10 @@ namespace leetcode1202 {
 
 
 int main(int argc, char *argv[]) {
+    using namespace std;
+
+    unordered_set<unordered_set<int>> record{};
+
 
 
     return 0;
