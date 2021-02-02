@@ -88,3 +88,5 @@ add_executable(leetcode1018 leetcode1018/leetcode1018.cpp)
 add_executable(leetcode724 leetcode724/leetcode724.cpp)
 
 add_executable(leetcode674 leetcode674/leetcode674.cpp)
+
+add_executable(leetcode888 leetcode888/leetcode888.h leetcode888/leetcode888.cpp)
