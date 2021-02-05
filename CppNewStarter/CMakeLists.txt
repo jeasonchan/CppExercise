@@ -93,3 +93,5 @@ add_executable(leetcode888 leetcode888/leetcode888.h leetcode888/leetcode888.cpp
 add_executable(point_and_unsigned_long point_and_unsigned_long/main.cpp)
 
 add_executable(pointer_to_member_data_and_function cpp_object_model/main.cpp)
+
+add_executable(implict_conversation implict_conversation/main.cpp)
