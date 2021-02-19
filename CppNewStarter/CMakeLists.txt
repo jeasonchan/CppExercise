@@ -95,3 +95,5 @@ add_executable(point_and_unsigned_long point_and_unsigned_long/main.cpp)
 add_executable(pointer_to_member_data_and_function cpp_object_model/main.cpp)
 
 add_executable(implict_conversation implict_conversation/main.cpp)
+
+add_executable(semaphore_mutex_condition semaphore_mutex_condition/semaphore_mutex_condition.cpp)
