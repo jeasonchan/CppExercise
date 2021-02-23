@@ -4,6 +4,8 @@ project(CppNewStarter LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
+set(CMAKE_CXX_FLAGS "${CAMKE_CXX_FLAGS} -pthread")
+
 set(WINDOWS false)
 if (${WINDOWS})
     set(BOOST_INCLUDEDIR D:\\softwares\\boost_1_73_0\\stage\\lib)
@@ -97,3 +99,5 @@ add_executable(pointer_to_member_data_and_function cpp_object_model/main.cpp)
 add_executable(implict_conversation implict_conversation/main.cpp)
 
 add_executable(semaphore_mutex_condition semaphore_mutex_condition/semaphore_mutex_condition.cpp)
+
+add_executable(exe_1_1_3 Linux多线程服务端编程实践/exe_1_1_3/main.cpp)
