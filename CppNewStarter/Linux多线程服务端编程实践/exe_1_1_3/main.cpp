@@ -56,6 +56,11 @@ int main()
 {
     using namespace std;
 
+    {   
+        thread threadHello([]() { cout << "Hello" << endl; });
+        // 离开这个作用域时，编译器产生的代码会自动析构thread 对象实例，然而这个线程还在跑，发生core dump
+    }
+
     unsafe_counter counter01;
     thread counter01_thread01([&counter01]() {
         for (int i = 0; i < 10000000; ++i)
