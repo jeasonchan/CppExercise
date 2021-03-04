@@ -3,6 +3,7 @@
 #include <thread>
 #include <iostream>
 #include <chrono>
+#include <memory>
 
 // 匿名方法区，方法区内的符号天然对本编译单元内可见，且由于匿名性，可以等效认为对其他编译单元不可见
 namespace
@@ -50,6 +51,17 @@ namespace
         }
     };
 
+}
+
+/**
+ * @brief 试试 doxygen，这插件生成class、function的文档真不错……
+ * 
+ * @param a 
+ * @param b 
+ * @return int 
+ */
+int add(int a,int b){
+    return a+b;
 }
 
 int main()
@@ -121,6 +133,10 @@ int main()
     void (safe_counter::*fun)() = &safe_counter::increase;
     thread thread222(&safe_counter::increase, &counter02);
     (counter02.*fun)();
+
+    shared_ptr<safe_counter> aa=make_shared<safe_counter>();
+
+    aa->increase();
 
     return 0;
 }
