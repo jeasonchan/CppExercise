@@ -58,5 +58,11 @@ int main() {
 
 
  */
+
+
+    Person me;
+
+
+
     return 0;
 }
