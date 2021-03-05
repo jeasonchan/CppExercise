@@ -101,3 +101,6 @@ add_executable(implict_conversation implict_conversation/main.cpp)
 add_executable(semaphore_mutex_condition semaphore_mutex_condition/semaphore_mutex_condition.cpp)
 
 add_executable(exe_1_1_3 Linux多线程服务端编程实践/exe_1_1_3/main.cpp)
+
+# 分支预测性能影响
+add_executable(cpu_branch_expect 分支预测性能影响/main.cpp)
